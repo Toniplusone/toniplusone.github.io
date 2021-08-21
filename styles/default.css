@@ -1,0 +1,28 @@
+body
+{
+  /* you better change this stuff */
+  margin: 30px;
+  font-family: lucida bright;
+  color: black;
+  background-color: #CD5C5C;
+  font-size: 100%;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+figure {
+	width: 50%;
+	height: auto;
+	text-align: center;
+	margin: auto;
+}
+figcaption {
+	font-style: italic;
+	text-align: center;
+}
+h1, h2 {
+	text-align: center;
+}
