@@ -28,7 +28,7 @@ h1, h2, h3, div {
 }
 div {
   width: 300px;
-  border: 5px solid black;
+  border: none;
   padding: 50px;
   margin: auto;
   
@@ -41,7 +41,7 @@ p {
 ul {
 	list-style-type: circle;
 	text-align: center;
-	list-style-position: outisde;
+	list-style-position: inside;
 }
 
 
