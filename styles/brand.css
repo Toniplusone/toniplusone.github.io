@@ -33,3 +33,11 @@ div {
   margin: auto;
   
 }
+
+p {
+	text-align: center;
+}
+
+ul {
+	list-style-type: circle;
+}
