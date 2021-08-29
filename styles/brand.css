@@ -40,8 +40,9 @@ p {
 
 ul {
 	list-style-type: circle;
-	text-align: center;
+	text-align: left;
 	list-style-position: inside;
 }
+
 
 
