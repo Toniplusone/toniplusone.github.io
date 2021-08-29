@@ -23,7 +23,7 @@ figcaption {
 	font-style: italic;
 	text-align: center;
 }
-h1, h2, h3 {
+h1, h2, h3, div {
 	text-align: center;
 }
 div {
@@ -31,4 +31,5 @@ div {
   border: 5px solid black;
   padding: 50px;
   margin: 20px;
+  
 }
