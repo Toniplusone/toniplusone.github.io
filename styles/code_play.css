@@ -1,0 +1,39 @@
+body
+{
+  /* you better change this stuff */
+  margin: 30px;
+  font-family: lucida bright;
+  color: black;
+  background-color: #CD5C5C;
+  font-size: 100%;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+figure {
+	width: 50%;
+	height: auto;
+	text-align: center;
+	margin: auto;
+}
+figcaption {
+	font-style: italic;
+	text-align: center;
+}
+h1, h2 {
+	text-align: center;
+}
+
+p.input{
+  text-align: center;
+  background-color: rgb(139, 0, 139);
+  color: rbg(0,255,255);
+}
+p.output{
+  text-align: center;
+  background-color: rgb(250, 250, 210);
+  color: rgb(139,0,139);
+}
