@@ -41,6 +41,7 @@ p {
 ul {
 	list-style-type: circle;
 	list-style-position: inside;
+	background-color: E6E6FA;
 }
 
 footer{

@@ -25,4 +25,25 @@ figcaption {
 }
 h1, h2 {
 	text-align: center;
+}nav {
+	text-align: center;
+}
+/*unvisited link*/
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: purple;
+}
+
+/* selected link */
+a:active {
+  color: blue;
 }
