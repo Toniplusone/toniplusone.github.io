@@ -33,24 +33,43 @@ div {
   margin: auto;
   
 }
+nav {
+  display: inline;
+  padding-right: 30px;
+  text-align: center;
+  font-size: 175%;
+}
+nav a {
+	padding: 16px;
+	text-decoration: none;
+	font-size: 20px;
+	
+}
 
 p {
 	text-align: center;
 }
 
 ul {
-	list-style-type: circle;
-	list-style-position: inside;
-	background-color: E6E6FA;
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  background-color: #F5DEB3;
+}
+li {
+  border-right: 1px solid #bbb;
+  display: inline;
+}
+
+li:last-child {
+  border-right: none;
 }
 
 footer{
 	text-align: center;
 }
 
-nav {
-	text-align: center;
-}
+
 /*unvisited link*/
 a:link {
   color: black;
