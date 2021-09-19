@@ -15,7 +15,7 @@ function fizzBuzz(counter) {
 for(let i = 0; i <= counter; i++) {
   var evenOrOdd;
   
-  if (i % 2 === 0) {
+  if (i % 2 == 0) {
     evenOrOdd = 'This number is even';
   } else {
     evenOrOdd = 'This number is odd';
