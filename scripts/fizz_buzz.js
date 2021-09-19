@@ -8,10 +8,10 @@ function formSubmit(){
 	
 	document.getElementById("greeting").textContent = "Welcome to Toni's Business Solutions, " + firstName +" " + middleInitial + "." + lastName + "!";
 	let count = prompt(`How high do you want to count, ${firstName}?`);
-buzz(count);
+fizzBuzz(count);
 }
 
-function buzz(counter) {
+function fizzBuzz(counter) {
 for (let i = 0; i <= counter; i++) {
   var even_odd;
   
