@@ -24,19 +24,19 @@ for (let i = 0; i <= counter; i++) {
 
 
    
-    var el = document.createElement('li');
+    var element_1 = document.createElement('li');
     
     
     var text = document.createTextNode(i + 'Business Solutions' + even_odd);
     
     
-    el.appendChild(text);
+    element_1.appendChild(text);
     
     //element's postition
     var newPos = document.getElementsByTagName('ul')[0];
     
     
-    newPos.appendChild(el);
+    newPos.appendChild(element_1);
     
   }
 }
