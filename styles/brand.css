@@ -56,13 +56,14 @@ ul {
   overflow: hidden;
   background-color: #F5DEB3;
 }
-li {
+li a{
   border-right: 1px solid #bbb;
   display: inline;
 }
 
-li:last-child {
+li:not(:last-child) {
   border-right: none;
+  
 }
 
 footer{
@@ -91,3 +92,18 @@ a:active {
 }
 
 
+/*centering a button*/
+.container { 
+  height: 200px;
+  position: relative;
+  border: 3px solid green; 
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
