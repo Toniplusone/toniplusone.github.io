@@ -12,7 +12,7 @@ buzz(count);
 }
 
 function buzz(counter) {
-for(let i = 0; i <= counter; i++) {
+for (let i = 0; i <= counter; i++) {
   var even_odd;
   
   if (i % 2 === 0) {
@@ -27,7 +27,7 @@ for(let i = 0; i <= counter; i++) {
     var el = document.createElement('li');
     
     
-    var text = document.createTextNode(i + 'Business Solutions' + even_odddd);
+    var text = document.createTextNode(i + 'Business Solutions' + even_odd);
     
     
     el.appendChild(text);
