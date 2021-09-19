@@ -7,4 +7,4 @@ function formSubmit(){
 	let middleInitial = document.getElementById('middle_initial').value;
 	
 	document.getElementById("greeting").textContent = "Welcome to Toni's Business Solutions, " + firstName +" " + middleInitial + "." + lastName + "!";
-	
+}
