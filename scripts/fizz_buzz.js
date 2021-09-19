@@ -11,7 +11,7 @@ function formSubmit(){
 buzz(count);
 }
 
-function buzz(counter) {
+function buzz(count) {
 for (let i = 0; i <= counter; i++) {
   var even_odd;
   
@@ -24,19 +24,19 @@ for (let i = 0; i <= counter; i++) {
 
 
    
-    var element_1 = document.createElement('li');
+    var element1 = document.createElement('li');
     
     
-    var text = document.createTextNode(i + 'Business Solutions' + even_odd);
+    var text = document.createTextNode(i + ' Business Solutions ' + even_odd);
     
     
-    element_1.appendChild(text);
+    element1.appendChild(text);
     
     //element's postition
     var newPos = document.getElementsByTagName('ul')[0];
     
     
-    newPos.appendChild(element_1);
+    newPos.appendChild(element1);
     
   }
 }
