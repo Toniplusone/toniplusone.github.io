@@ -12,13 +12,13 @@ fizzBuzz(count);
 }
 
 function fizzBuzz(counter) {
-for (let i = 0; i <= counter; i++) {
-  var even_odd;
+for(let i = 0; i <= counter; i++) {
+  var evenOrOdd;
   
   if (i % 2 === 0) {
-    even_odd = 'This number is even';
+    evenOrOdd = 'This number is even';
   } else {
-    even_odd = 'This number is odd';
+    evenOrOdd = 'This number is odd';
   }
 
 
@@ -27,10 +27,10 @@ for (let i = 0; i <= counter; i++) {
     var element1 = document.createElement('ul');
     
     
-    var new_text = document.createTextNode(i + ' Business Solutions ' + even_odd);
+    var newText = document.createTextNode(i + ' Business Solutions ' + evenOrOdd);
     
     
-    element1.appendChild(new_text);
+    element1.appendChild(newText);
     
     //element's postition
     var newPos = document.getElementsByTagName('ul')[0];
