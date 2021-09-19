@@ -24,7 +24,7 @@ for (let i = 0; i <= counter; i++) {
 
 
    
-    var element1 = document.createElement('li');
+    var element1 = document.createElement('ul');
     
     
     var new_text = document.createTextNode(i + ' Business Solutions ' + even_odd);
