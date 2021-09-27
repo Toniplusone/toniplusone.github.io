@@ -23,7 +23,7 @@ function fizzBuzz(counter) {
     var newElement = document.createElement('li');
     
     //creates text node & stores in variable
-    var newText = document.createTextNode(i + ' Business SOlutions - ' + even_odddd);
+    var newText = document.createTextNode(i + ' Business SOlutions - ' + even_odd);
     
     //attaches text node to new element
     newElement.appendChild(newText);
