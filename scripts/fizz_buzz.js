@@ -33,7 +33,7 @@ for(let i = 0; i <= counter; i++) {
     element1.appendChild(newText);
     
     
-    var newPos = document.getElementsByTagName('ul')[0];
+    var newPos = document.getElementsById('ul')[0];
     
     
     newPos.appendChild(element1);
