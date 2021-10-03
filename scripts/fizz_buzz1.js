@@ -31,7 +31,7 @@ function businessSol() {
       
     
    
-    var newIten = document.createElement('li');
+    var newItem = document.createElement('li');
     
     
     var newText = document.createTextNode(i + ": " + word);
