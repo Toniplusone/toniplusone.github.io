@@ -13,7 +13,7 @@ function getInfo() {
    }
   
   let howHigh = prompt(`How high should we count, ${firstName}?`);
-  bussinessSol(howHigh);
+  businessSol(howHigh);
 }
 
 function businessSol(counter) {
