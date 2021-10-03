@@ -3,12 +3,9 @@ function getInfo() {
   let lastName = document.getElementById('last_name').value;
   let middleInitial = document.getElementById('middle_initial').value;
         
-  if (middleInitial) {
-     document.getElementById("greeting").textContent = "Welcome to Toni's Business Solutions, " + firstName + " " + middleInitial + ". " + lastName + "!";
-   } else {
-     document.getElementById("greeting").textContent = "Welcome to Toni's Business Solutions, " + firstName + " " + lastName + "!";
-   }
   
+     document.getElementById("greeting").textContent = "Welcome to Toni's Business Solutions, " + firstName + " " + middleInitial + ". " + lastName + "!";
+   
   businessSol();
 }
 
@@ -31,10 +28,10 @@ function businessSol() {
       
     
    
-    var newItem = document.createElement('li');
+      var newItem = document.createElement('li');
     
     
-    var newText = document.createTextNode(i + ": " + word);
+    var newText = document.createTextNode(i + " : " + word);
     
     
     newItem.appendChild(newText);
