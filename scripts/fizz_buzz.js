@@ -27,19 +27,19 @@ function businessSol(counter) {
     }
     
     
-    var newElement = document.createElement('li');
+    var newItem = document.createElement('li');
     
     
-    var newText = document.createTextNode(i + '- Business Solutions - ' + evenOrOdd);
+    var newText = document.createTextNode(i + 'Business Solutions ' + evenOrOdd);
     
     
-    newElement.appendChild(newText);
+    newItem.appendChild(newText);
     
     
     var newPosition = document.getElementsByTagName('ul')[0];
     
     
-    newPosition.appendChild(newElement);
+    newPosition.appendChild(newItem);
     
   }
   
