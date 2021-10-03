@@ -13,10 +13,10 @@ function formSubmit() {
    }
   
   let howHigh = prompt(`How high should we count, ${firstName}?`);
-  count(howHigh);
+  bussinessSol(howHigh);
 }
 
-function count(counter) {
+function businessSol(counter) {
   for(let i = 0; i <= counter; i++) {
     var evenOrOdd;
     
