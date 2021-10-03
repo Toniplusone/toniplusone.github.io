@@ -30,7 +30,7 @@ function businessSol(counter) {
     var newItem = document.createElement('li');
     
     
-    var newText = document.createTextNode(i + 'Business Solutions ' + evenOrOdd);
+    var newText = document.createTextNode(i + ' Business Solutions - ' + evenOrOdd);
     
     
     newItem.appendChild(newText);
