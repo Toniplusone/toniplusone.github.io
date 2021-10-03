@@ -1,4 +1,4 @@
-function getData() {
+function getInfo() {
   let firstName = document.getElementById('first_name').value;
   let lastName = document.getElementById('last_name').value;
   let middleInitial = document.getElementById('middle_initial').value;
