@@ -24,7 +24,7 @@ function businessSol(firstDivisor, secondDivisor) {
     var word = '';
     
     if (divisible(i, firstDivisor)) {
-      word += 'HELP';
+      word += 'HELP ';
     } 
     
     if (divisible(i, secondDivisor)) {
