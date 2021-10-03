@@ -22,7 +22,7 @@ function businessSol() {
     }
     
     if (word === '') {
-      word = 'Yea';
+      word = 'Business Solutions';
     }
       
       
