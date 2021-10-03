@@ -2,6 +2,8 @@ function getInfo() {
   let firstName = document.getElementById('first_name').value;
   let lastName = document.getElementById('last_name').value;
   let middleInitial = document.getElementById('middle_initial').value;
+  let firstDivisor = 6;
+  let secondDivisor = 9;
         
   
      document.getElementById("greeting").textContent = "Welcome to Toni's Business Solutions, " + firstName + " " + middleInitial + ". " + lastName + "!";
