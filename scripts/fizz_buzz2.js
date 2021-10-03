@@ -24,11 +24,11 @@ function businessSol(firstDivisor, secondDivisor) {
     var word = '';
     
     if (divisible(i, firstDivisor)) {
-      word = word.concat('HELP');
+      word += 'HELP';
     } 
     
     if (divisible(i, secondDivisor)) {
-      word = word.concat('SOLUTIONS!');
+      word +='SOLUTIONS!';
     }
     
     if (word === '') {
