@@ -55,6 +55,7 @@ ul {
   margin: 0;
   overflow: hidden;
   background-color: #F5DEB3;
+  text-align: center;
 }
 li a{
   border-right: 1px solid #bbb;
