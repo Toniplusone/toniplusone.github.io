@@ -1,6 +1,6 @@
 body
 {
-  /* you better change this stuff */
+  
   margin: 30px;
   font-family: Georgia;
   color: black;
@@ -55,7 +55,7 @@ ul {
   margin: 0;
   overflow: hidden;
   background-color: #F5DEB3;
-  text-align: center;
+  text-align: left;
 }
 li a{
   border-right: 1px solid #bbb;
