@@ -33,24 +33,44 @@ div {
   margin: auto;
   
 }
+nav {
+  display: inline;
+  padding-right: 30px;
+  text-align: center;
+  font-size: 175%;
+}
+nav a {
+	padding: 16px;
+	text-decoration: none;
+	font-size: 20px;
+	
+}
 
 p {
-	text-align: center;
+	text-align: left;
 }
 
 ul {
-	list-style-type: circle;
-	list-style-position: inside;
-	background-color: FFF0F5;
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  background-color: #F5DEB3;
+}
+li a{
+  border-right: 1px solid #bbb;
+  display: inline;
+}
+
+li:not(:last-child) {
+  border-right: none;
+  
 }
 
 footer{
 	text-align: center;
 }
 
-nav {
-	text-align: center;
-}
+
 /*unvisited link*/
 a:link {
   color: black;
@@ -72,3 +92,18 @@ a:active {
 }
 
 
+/*centering a button*/
+.container { 
+  height: 200px;
+  position: relative;
+  border: 3px solid green; 
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
