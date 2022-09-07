@@ -2,9 +2,9 @@ body
 {
   /* you better change this stuff */
   margin: 30px;
-  font-family: lucida bright;
+  font-family: Georgia;
   color: black;
-  background-color: #CD5C5C;
+  background-color: #556B2F;
   font-size: 100%;
 }
 .center {
@@ -23,11 +23,54 @@ figcaption {
 	font-style: italic;
 	text-align: center;
 }
-h1, h2 {
-	text-align: center;
-}nav {
+h1, h2, h3, div {
 	text-align: center;
 }
+div {
+  width: 300px;
+  border: none;
+  padding: 10px;
+  margin: auto;
+  
+}
+nav {
+  display: inline;
+  padding-right: 30px;
+  text-align: center;
+  font-size: 175%;
+}
+nav a {
+	padding: 16px;
+	text-decoration: none;
+	font-size: 20px;
+	
+}
+
+p {
+	text-align: left;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  background-color: #F5DEB3;
+}
+li a{
+  border-right: 1px solid #bbb;
+  display: inline;
+}
+
+li:not(:last-child) {
+  border-right: none;
+  
+}
+
+footer{
+	text-align: center;
+}
+
+
 /*unvisited link*/
 a:link {
   color: black;
@@ -46,4 +89,21 @@ a:hover {
 /* selected link */
 a:active {
   color: blue;
+}
+
+
+/*centering a button*/
+.container { 
+  height: 200px;
+  position: relative;
+  border: 3px solid green; 
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
