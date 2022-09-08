@@ -33,6 +33,10 @@ div {
   margin: auto;
   
 }
+
+header nav{
+	text-align: center;
+}
 nav {
   display: inline;
   padding-right: 30px;
