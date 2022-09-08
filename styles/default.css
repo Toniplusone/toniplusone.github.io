@@ -3,8 +3,8 @@ body
   
   margin: 30px;
   font-family: Georgia;
-  color: #2f556b;
-  background-color: #556B2F;
+  color: #c55f4e;
+  background-color: #925946;
   font-size: 100%;
 }
 .center {
@@ -36,20 +36,20 @@ div {
 
 header nav{
 	text-align: center;
-	color: #2f556b;
+	color: #ca8462;
 }
 nav {
   display: inline;
   padding-right: 30px;
   text-align: center;
   font-size: 175%;
-  color: #2f556b;
+  color: #ca8462;
 }
 nav a {
 	padding: 16px;
 	text-decoration: none;
 	font-size: 20px;
-	color: #2f556b;
+	color: #ca8462;
 	
 }
 
@@ -80,12 +80,12 @@ footer{
 
 /*unvisited link*/
 a:link {
-  color: #2f556b;
+  color: #ca8462;
 }
 
 /* visited link */
 a:visited {
-  color: #2f556b;
+  color:#ca8462;
 }
 
 /* mouse over link */
