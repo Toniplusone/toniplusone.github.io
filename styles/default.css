@@ -3,7 +3,7 @@ body
   
   margin: 30px;
   font-family: Georgia;
-  color: #6b2f55;
+  color: #2f556b;
   background-color: #556B2F;
   font-size: 100%;
 }
@@ -80,12 +80,12 @@ footer{
 
 /*unvisited link*/
 a:link {
-  color: black;
+  color: #2f556b;
 }
 
 /* visited link */
 a:visited {
-  color: black;
+  color: #2f556b;
 }
 
 /* mouse over link */
