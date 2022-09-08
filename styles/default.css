@@ -4,7 +4,7 @@ body
   margin: 30px;
   font-family: Georgia;
   color: #c55f4e;
-  background-color: #654321;  //925946
+  background-color: #654321;   //925946
   font-size: 150%;
 }
 .center {
@@ -57,7 +57,7 @@ p {
 	text-align: left;
 }
 
-ul {
+/*ul {
   list-style-type: none;
   margin: 0;
   overflow: hidden;
@@ -72,6 +72,7 @@ li:not(:last-child) {
   border-right: none;
   
 }
+*/
 
 footer{
 	text-align: center;
