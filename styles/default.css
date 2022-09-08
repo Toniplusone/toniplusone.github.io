@@ -3,7 +3,7 @@ body
   
   margin: 30px;
   font-family: Georgia;
-  color: #2F4F4F;
+  color: #6b2f55;
   background-color: #556B2F;
   font-size: 100%;
 }
@@ -36,17 +36,20 @@ div {
 
 header nav{
 	text-align: center;
+	color: #2f556b;
 }
 nav {
   display: inline;
   padding-right: 30px;
   text-align: center;
   font-size: 175%;
+  color: #2f556b;
 }
 nav a {
 	padding: 16px;
 	text-decoration: none;
 	font-size: 20px;
+	color: #2f556b;
 	
 }
 
