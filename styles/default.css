@@ -1,31 +1,28 @@
-body
-{
+body {
   
   margin: 30px;
   font-family: Georgia;
   color: #c55f4e;
-  background-color: #654321;   //925946
+  background-color: #654321;   /*925946*/
   font-size: 150%;
 }
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
+
 figure {
 	width: 50%;
 	height: auto;
 	text-align: center;
 	margin: auto;
 }
+
 figcaption {
 	font-style: italic;
 	text-align: center;
 }
-h1, h2, h3, div {
+
+h1, h2, h3 {
 	text-align: center;
 }
+
 div {
   width: 300px;
   border: none;
@@ -37,25 +34,24 @@ div {
 header nav{
 	text-align: center;
 	color: #ca8462;
+	display: inline;
+	font-size: 125%;
 }
-nav {
+
+
+/*nav {
   display: inline;
   padding-right: 30px;
   text-align: center;
-  font-size: 175%;
+  font-size: 125%;
   color: #ca8462;
 }
-nav a {
-	padding: 16px;
-	text-decoration: none;
-	font-size: 20px;
-	color: #ca8462;
-	
-}
+*/
 
-p {
+/*p {
 	text-align: left;
 }
+*/
 
 /*ul {
   list-style-type: none;
@@ -74,7 +70,7 @@ li:not(:last-child) {
 }
 */
 
-footer{
+footer nav, footer {
 	text-align: center;
 }
 
@@ -97,21 +93,4 @@ a:hover {
 /* selected link */
 a:active {
   color: blue;
-}
-
-
-/*centering a button*/
-.container { 
-  height: 200px;
-  position: relative;
-  border: 3px solid green; 
-}
-
-.center {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
 }
