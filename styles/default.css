@@ -73,6 +73,7 @@ li:not(:last-child) {
 
 footer nav, footer {
 	text-align: center;
+	font-family: arial;
 }
 
 
