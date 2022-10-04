@@ -37,6 +37,10 @@ header nav{
 	display: inline;
 	font-size: 125%;
 	font-family: arial;
+
+}
+header nav{
+	text-align: center;
 }
 
 
